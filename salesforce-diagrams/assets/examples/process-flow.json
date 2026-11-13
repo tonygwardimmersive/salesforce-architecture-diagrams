@@ -1,0 +1,29 @@
+{
+  "type": "interaction-process-flow",
+  "width": 1400,
+  "header": {
+    "title": "Order Sync: Salesforce to ERP",
+    "description": "How a closed-won Opportunity creates a sales order in the ERP via Platform Events and MuleSoft, with the order number written back to Salesforce.",
+    "key": [
+      {"icon": {"glyph": "S", "colour": "sync"}, "label": "Synchronous"},
+      {"icon": {"glyph": "A", "colour": "async"}, "label": "Asynchronous"},
+      {"line": "solid", "label": "Publish / call"},
+      {"line": "dashed", "label": "Subscribe / callback"}
+    ],
+    "key_columns": 2
+  },
+  "cards": [
+    {"id": "sf", "x": 40, "y": 0, "w": 320, "h": 470, "icon": {"glyph": "SF", "colour": "platform"}, "title": "Salesforce", "attributes": ["Sales Cloud"], "footer": "Org: Production", "footer_icons": [{"glyph":"S","colour":"sync"}]},
+    {"id": "opp", "x": 64, "y": 140, "w": 272, "h": 90, "nested": true, "title": "Opportunity", "attributes": ["Stage = Closed Won"]},
+    {"id": "pe", "x": 64, "y": 250, "w": 272, "h": 90, "nested": true, "title": "Order_Event__e", "attributes": ["Publish after commit"]},
+    {"id": "mule", "x": 540, "y": 0, "w": 320, "h": 470, "icon": {"glyph": "M", "colour": "mulesoft"}, "title": "MuleSoft", "attributes": ["Process API", "Retry + DLQ"], "footer": "CloudHub 2.0", "footer_icons": [{"glyph":"A","colour":"async"}]},
+    {"id": "erp", "x": 1040, "y": 0, "w": 320, "h": 470, "icon": {"glyph": "E", "colour": "external"}, "title": "ERP", "attributes": ["Sales Order API", "OAuth 2.0 client credentials"], "footer": "External System"}
+  ],
+  "connectors": [
+    {"from": "opp", "to": "pe", "step": 1, "from_side": "bottom", "to_side": "top"},
+    {"from": "pe", "to": "mule", "step": 2, "style": "dashed", "to_port": 0.63},
+    {"from": "mule", "to": "erp", "step": 3, "from_port": 0.4, "to_port": 0.4},
+    {"from": "erp", "to": "mule", "step": 4, "style": "dashed", "from_port": 0.6, "to_port": 0.6},
+    {"from": "mule", "to": "opp", "step": 5, "from_port": 0.25, "to_port": 0.5, "from_side": "left", "to_side": "right"}
+  ]
+}

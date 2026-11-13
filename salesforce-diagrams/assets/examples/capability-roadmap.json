@@ -1,0 +1,130 @@
+{
+  "type": "roadmap",
+  "width": 1400,
+  "header": {
+    "title": "Service Capability Roadmap FY27",
+    "description": "Sequence and dependencies for the Service Cloud capabilities planned this year, to support budgeting and resource planning.",
+    "key": [
+      {
+        "icon": {
+          "glyph": "E",
+          "colour": "platform"
+        },
+        "label": "Efficiency"
+      },
+      {
+        "icon": {
+          "glyph": "R",
+          "colour": "data360"
+        },
+        "label": "Retention"
+      },
+      {
+        "icon": {
+          "glyph": "AI",
+          "colour": "industries"
+        },
+        "label": "AI / Agentforce"
+      }
+    ]
+  },
+  "timeline": {
+    "columns": [
+      "Q1",
+      "Q2",
+      "Q3",
+      "Q4"
+    ],
+    "label_w": 110,
+    "header_h": 60,
+    "lanes": [
+      {
+        "label": "Service",
+        "h": 420
+      },
+      {
+        "label": "Platform",
+        "h": 230
+      }
+    ]
+  },
+  "cards": [
+    {
+      "id": "voice",
+      "x": 170,
+      "y": 80,
+      "w": 420,
+      "h": 180,
+      "title": "Service Cloud Voice",
+      "title_rule": true,
+      "attributes": [
+        "Jan 15 - May 30",
+        "Dependencies: None"
+      ],
+      "footer_icons": [
+        {
+          "glyph": "E",
+          "colour": "platform"
+        }
+      ]
+    },
+    {
+      "id": "kb",
+      "x": 640,
+      "y": 80,
+      "w": 380,
+      "h": 180,
+      "title": "Knowledge Revamp",
+      "attributes": [
+        "Jun 1 - Aug 30",
+        "Dependencies: None"
+      ],
+      "footer_icons": [
+        {
+          "glyph": "R",
+          "colour": "data360"
+        }
+      ]
+    },
+    {
+      "id": "agent",
+      "x": 900,
+      "y": 290,
+      "w": 460,
+      "h": 180,
+      "title": "Agentforce Service Agent",
+      "attributes": [
+        "Sep 1 - Dec 15",
+        "Dependencies: Voice, Knowledge"
+      ],
+      "footer_icons": [
+        {
+          "glyph": "AI",
+          "colour": "industries"
+        },
+        {
+          "glyph": "E",
+          "colour": "platform"
+        }
+      ]
+    },
+    {
+      "id": "d360",
+      "x": 300,
+      "y": 510,
+      "w": 600,
+      "h": 180,
+      "title": "Data 360 Unified Profile",
+      "attributes": [
+        "Mar 1 - Sep 30",
+        "Dependencies: Identity resolution rules"
+      ],
+      "footer_icons": [
+        {
+          "glyph": "R",
+          "colour": "data360"
+        }
+      ]
+    }
+  ]
+}

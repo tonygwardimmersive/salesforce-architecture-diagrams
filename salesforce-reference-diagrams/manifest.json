@@ -1,0 +1,411 @@
+{
+  "source": "https://architect.salesforce.com/docs/architect/reference-diagrams/guide/introduction.html",
+  "retrieved": "2026-11-13T09:45:41.372Z",
+  "pages": [
+    {
+      "section": "00-guide",
+      "page": "introduction",
+      "url": "https://architect.salesforce.com/docs/architect/reference-diagrams/guide/introduction.html",
+      "title": "How to Build Salesforce Diagrams | Reference Diagrams | Salesforce Architects",
+      "images": [
+        "howto-header.png",
+        "howto-cards.png",
+        "howto-connectors.png",
+        "howto-cardicons.png",
+        "howto-footerfootericons.png"
+      ],
+      "lucidTemplates": []
+    },
+    {
+      "section": "00-guide",
+      "page": "kit-of-parts",
+      "url": "https://architect.salesforce.com/docs/architect/reference-diagrams/guide/kit-of-parts.html",
+      "title": "Standard Components | Reference Diagrams | Salesforce Architects",
+      "images": [
+        "lucidchart.png",
+        "howto-header.png",
+        "standardcomponents-cardanatomy.png",
+        "standardcomponents-cardvariations1.png",
+        "standardcomponents-cardvariations2.png",
+        "standardcomponents-cardvariations3.png",
+        "standardcomponents-containers.png",
+        "standardcomponents-icons.png",
+        "howto-connectors.png",
+        "standardcomponents-accessibility.png"
+      ],
+      "lucidTemplates": [
+        "https://www.lucidchart.com/blog/salesforce-shape-library"
+      ]
+    },
+    {
+      "section": "00-guide",
+      "page": "data-model-notation",
+      "url": "https://architect.salesforce.com/docs/architect/reference-diagrams/guide/data-model-notation.html",
+      "title": "Salesforce Data Model Diagrams | Reference Diagrams | Salesforce Architects",
+      "images": [
+        "diagrams-sales-datamodel-snapshot.webp",
+        "sample-entity.png",
+        "sample-data-model-clouds.png",
+        "sample-legend-entities.png",
+        "sample-record-type.png",
+        "sample-subtype-relationships.png",
+        "sample-supertype.png",
+        "sample-contact-subtype.png",
+        "sample-relationships.png",
+        "sample-legend-relationships.png",
+        "sample-relationships-meaning.png",
+        "sample-relationships-meaning-2.png",
+        "sample-relationships-meaning-3.png",
+        "sample-relationships-color.png",
+        "sample-relationships-recursive.png",
+        "sample-relationships-mutual-exclusive.png",
+        "sample-relationships-mutual-exclusive-2.png"
+      ],
+      "lucidTemplates": []
+    },
+    {
+      "section": "section-capability-map",
+      "page": "section-capability-map",
+      "url": "https://architect.salesforce.com/docs/architect/reference-diagrams/guide/section-capability-map.html",
+      "title": "Capability Map | Reference Diagrams | Salesforce Architects",
+      "images": [],
+      "lucidTemplates": []
+    },
+    {
+      "section": "section-capability-map",
+      "page": "business-capability-map",
+      "url": "https://architect.salesforce.com/docs/architect/reference-diagrams/guide/business-capability-map.html",
+      "title": "Business Capability Map | Capability Map | Reference Diagrams | Salesforce Architects",
+      "images": [
+        "business-capability-map.webp"
+      ],
+      "lucidTemplates": [
+        "https://lucid.app/lucidchart/editNewOrRegister/fe6ccc24-6a13-4e0f-8076-1e5af8b08466"
+      ]
+    },
+    {
+      "section": "section-capability-map",
+      "page": "data-360-technical-capability-map",
+      "url": "https://architect.salesforce.com/docs/architect/reference-diagrams/guide/data-360-technical-capability-map.html",
+      "title": "Data 360 Technical Capability Map | Capability Map | Reference Diagrams | Salesforce Architects",
+      "images": [
+        "data-360-technical-capability-map.webp"
+      ],
+      "lucidTemplates": [
+        "https://lucid.app/lucidchart/editNewOrRegister/9b36e287-525d-472c-92ec-729bca136540"
+      ]
+    },
+    {
+      "section": "section-capability-map",
+      "page": "loyalty-management-capability-map",
+      "url": "https://architect.salesforce.com/docs/architect/reference-diagrams/guide/loyalty-management-capability-map.html",
+      "title": "Loyalty Management Capability Map | Capability Map | Reference Diagrams | Salesforce Architects",
+      "images": [
+        "loyalty-management-capability-map.webp"
+      ],
+      "lucidTemplates": [
+        "https://lucid.app/lucidchart/editNewOrRegister/d41ccba2-71ea-449a-8497-ea95396102b4"
+      ]
+    },
+    {
+      "section": "section-capability-map",
+      "page": "center-of-excellence",
+      "url": "https://architect.salesforce.com/docs/architect/reference-diagrams/guide/center-of-excellence.html",
+      "title": "Center Of Excellence | Capability Map | Reference Diagrams | Salesforce Architects",
+      "images": [
+        "center-of-excellence.webp"
+      ],
+      "lucidTemplates": [
+        "https://lucid.app/lucidchart/editNewOrRegister/59956c3b-3c73-469b-87a4-44c6dad948e5"
+      ]
+    },
+    {
+      "section": "section-system-landscape",
+      "page": "section-system-landscape",
+      "url": "https://architect.salesforce.com/docs/architect/reference-diagrams/guide/section-system-landscape.html",
+      "title": "System Landscape | Reference Diagrams | Salesforce Architects",
+      "images": [],
+      "lucidTemplates": []
+    },
+    {
+      "section": "section-system-landscape",
+      "page": "data-360-marketing",
+      "url": "https://architect.salesforce.com/docs/architect/reference-diagrams/guide/data-360-marketing.html",
+      "title": "Customer 360 Marketing Landscape | System Landscape | Reference Diagrams | Salesforce Architects",
+      "images": [
+        "data-360-marketing.webp"
+      ],
+      "lucidTemplates": [
+        "https://lucid.app/lucidchart/editNewOrRegister/e83190b9-5d7d-4468-aff9-882c9086e73f"
+      ]
+    },
+    {
+      "section": "section-system-landscape",
+      "page": "einstein-system-landscape",
+      "url": "https://architect.salesforce.com/docs/architect/reference-diagrams/guide/einstein-system-landscape.html",
+      "title": "Agentforce System Landscape | System Landscape | Reference Diagrams | Salesforce Architects",
+      "images": [
+        "einstein-system-landscape.webp"
+      ],
+      "lucidTemplates": [
+        "https://lucid.app/lucidchart/editNewOrRegister/28e332b9-b4d5-4780-8220-12e097f0dc58"
+      ]
+    },
+    {
+      "section": "section-system-landscape",
+      "page": "retail-system-landscape",
+      "url": "https://architect.salesforce.com/docs/architect/reference-diagrams/guide/retail-system-landscape.html",
+      "title": "Retail System Landscape | System Landscape | Reference Diagrams | Salesforce Architects",
+      "images": [
+        "retail-system-landscape.webp"
+      ],
+      "lucidTemplates": [
+        "https://lucid.app/lucidchart/editNewOrRegister/4d6b109a-ea3e-46c2-bab6-84a07efd9ac5"
+      ]
+    },
+    {
+      "section": "section-system-landscape",
+      "page": "salesforce-role-hierarchy",
+      "url": "https://architect.salesforce.com/docs/architect/reference-diagrams/guide/salesforce-role-hierarchy.html",
+      "title": "Salesforce Role Hierarchy | System Landscape | Reference Diagrams | Salesforce Architects",
+      "images": [
+        "salesforce-role-hierarchy.webp"
+      ],
+      "lucidTemplates": [
+        "https://lucid.app/lucidchart/editNewOrRegister/4fe3cd5e-0ccf-4ffd-9f7c-a418ce615c67"
+      ]
+    },
+    {
+      "section": "section-system-landscape",
+      "page": "single-org-architecture",
+      "url": "https://architect.salesforce.com/docs/architect/reference-diagrams/guide/single-org-architecture.html",
+      "title": "Single Org Architecture | System Landscape | Reference Diagrams | Salesforce Architects",
+      "images": [
+        "single-org-architecture.webp"
+      ],
+      "lucidTemplates": [
+        "https://lucid.app/lucidchart/editNewOrRegister/92edbe8d-18b8-4998-a851-7d1e815ea7d5"
+      ]
+    },
+    {
+      "section": "section-solution-architecture",
+      "page": "section-solution-architecture",
+      "url": "https://architect.salesforce.com/docs/architect/reference-diagrams/guide/section-solution-architecture.html",
+      "title": "Solution Architecture | Reference Diagrams | Salesforce Architects",
+      "images": [],
+      "lucidTemplates": []
+    },
+    {
+      "section": "section-solution-architecture",
+      "page": "aws-data-360",
+      "url": "https://architect.salesforce.com/docs/architect/reference-diagrams/guide/aws-data-360.html",
+      "title": "Zero-Copy Data Integration Architecture with Data 360 | Solution Architecture | Reference Diagrams | Salesforce Architects",
+      "images": [
+        "data360-aws.webp"
+      ],
+      "lucidTemplates": [
+        "https://lucid.app/lucidchart/editNew/04991364-85c0-45e6-b5de-553367fbb473",
+        "https://lucid.app/lucidchart/editNew/4661f0e4-e86a-409b-9a98-8301cbbca74f",
+        "https://lucid.app/lucidchart/editNew/e74f6e22-ce6d-4b6d-a258-76ddb8f73f4e",
+        "https://lucid.app/lucidchart/editNew/b02236c2-f3f4-4de8-b13b-35f67fd5390d"
+      ]
+    },
+    {
+      "section": "section-solution-architecture",
+      "page": "sfdc-customer-zero-implementation",
+      "url": "https://architect.salesforce.com/docs/architect/reference-diagrams/guide/sfdc-customer-zero-implementation.html",
+      "title": "Data 360 Customer Zero Implementation Architecture | Solution Architecture | Reference Diagrams | Salesforce Architects",
+      "images": [
+        "sfdc_customer_zero_implementation.png",
+        "sfdc_customer_zero_implementation.png"
+      ],
+      "lucidTemplates": [
+        "https://lucid.app/lucidchart/editNew/af215946-127b-4b47-95b9-a7c158be351b"
+      ]
+    },
+    {
+      "section": "section-solution-architecture",
+      "page": "data360-actions-activations",
+      "url": "https://architect.salesforce.com/docs/architect/reference-diagrams/guide/data360-actions-activations.html",
+      "title": "Data 360 Batch Activation and Event Driven Action Architecture | Solution Architecture | Reference Diagrams | Salesforce Architects",
+      "images": [
+        "data360-actions-activations.webp"
+      ],
+      "lucidTemplates": [
+        "https://lucid.app/lucidchart/editNew/620837ec-bb08-4f1e-af26-1164fc5f789c"
+      ]
+    },
+    {
+      "section": "section-solution-architecture",
+      "page": "loyalty-management-solution-architecture",
+      "url": "https://architect.salesforce.com/docs/architect/reference-diagrams/guide/loyalty-management-solution-architecture.html",
+      "title": "Loyalty Management Solution Architecture | Solution Architecture | Reference Diagrams | Salesforce Architects",
+      "images": [
+        "loyalty-management-solution-architecture.webp"
+      ],
+      "lucidTemplates": [
+        "https://lucid.app/lucidchart/editNewOrRegister/217c76c7-b8c4-44ed-aade-a7ae3fb8df0a"
+      ]
+    },
+    {
+      "section": "section-roadmap",
+      "page": "section-roadmap",
+      "url": "https://architect.salesforce.com/docs/architect/reference-diagrams/guide/section-roadmap.html",
+      "title": "Roadmap | Reference Diagrams | Salesforce Architects",
+      "images": [],
+      "lucidTemplates": []
+    },
+    {
+      "section": "section-roadmap",
+      "page": "capability-roadmap",
+      "url": "https://architect.salesforce.com/docs/architect/reference-diagrams/guide/capability-roadmap.html",
+      "title": "Capability Roadmap | Roadmap | Reference Diagrams | Salesforce Architects",
+      "images": [
+        "capability-roadmap.webp"
+      ],
+      "lucidTemplates": [
+        "https://lucid.app/lucidchart/editNewOrRegister/12103374-8b95-49bb-b7ad-b0f8154ccec6"
+      ]
+    },
+    {
+      "section": "section-roadmap",
+      "page": "component-roadmap",
+      "url": "https://architect.salesforce.com/docs/architect/reference-diagrams/guide/component-roadmap.html",
+      "title": "Component Roadmap | Roadmap | Reference Diagrams | Salesforce Architects",
+      "images": [
+        "component-roadmap.webp"
+      ],
+      "lucidTemplates": [
+        "https://lucid.app/lucidchart/editNewOrRegister/2ca75fbd-af2e-45fd-a636-01255f1fb0cf"
+      ]
+    },
+    {
+      "section": "section-roadmap",
+      "page": "feature-roadmap",
+      "url": "https://architect.salesforce.com/docs/architect/reference-diagrams/guide/feature-roadmap.html",
+      "title": "Feature Roadmap | Roadmap | Reference Diagrams | Salesforce Architects",
+      "images": [
+        "feature-roadmap.webp"
+      ],
+      "lucidTemplates": [
+        "https://lucid.app/lucidchart/editNewOrRegister/8e43258e-b21b-4525-87bf-8e5ba96f4032"
+      ]
+    },
+    {
+      "section": "section-roadmap",
+      "page": "generative-ai-release-plan",
+      "url": "https://architect.salesforce.com/docs/architect/reference-diagrams/guide/generative-ai-release-plan.html",
+      "title": "Agentforce Release Plan | Roadmap | Reference Diagrams | Salesforce Architects",
+      "images": [
+        "generative-ai-release-plan.webp"
+      ],
+      "lucidTemplates": [
+        "https://lucid.app/lucidchart/editNewOrRegister/241905d5-9a36-451d-952a-e43390349502"
+      ]
+    },
+    {
+      "section": "section-roadmap",
+      "page": "generative-ai-roadmap",
+      "url": "https://architect.salesforce.com/docs/architect/reference-diagrams/guide/generative-ai-roadmap.html",
+      "title": "Agentforce Roadmap | Roadmap | Reference Diagrams | Salesforce Architects",
+      "images": [
+        "generative-ai-roadmap.webp"
+      ],
+      "lucidTemplates": [
+        "https://lucid.app/lucidchart/editNewOrRegister/1d9723f0-0835-4dc2-9cbb-01b2e97c91e8"
+      ]
+    },
+    {
+      "section": "section-roadmap",
+      "page": "system-roadmap",
+      "url": "https://architect.salesforce.com/docs/architect/reference-diagrams/guide/system-roadmap.html",
+      "title": "System Roadmap | Roadmap | Reference Diagrams | Salesforce Architects",
+      "images": [
+        "system-roadmap.webp"
+      ],
+      "lucidTemplates": [
+        "https://lucid.app/lucidchart/editNewOrRegister/ead3af9a-ddc2-492a-a8c9-7ab3943fabd7"
+      ]
+    },
+    {
+      "section": "section-interaction-process-flow",
+      "page": "section-interaction-process-flow",
+      "url": "https://architect.salesforce.com/docs/architect/reference-diagrams/guide/section-interaction-process-flow.html",
+      "title": "Interaction Process Flow | Reference Diagrams | Salesforce Architects",
+      "images": [],
+      "lucidTemplates": []
+    },
+    {
+      "section": "section-interaction-process-flow",
+      "page": "asynchronous-processing-via-platform-events",
+      "url": "https://architect.salesforce.com/docs/architect/reference-diagrams/guide/asynchronous-processing-via-platform-events.html",
+      "title": "Asynchronous Processing Via Platform Events | Interaction Process Flow | Reference Diagrams | Salesforce Architects",
+      "images": [
+        "asynchronous-processing-via-platform-events.webp"
+      ],
+      "lucidTemplates": [
+        "https://lucid.app/lucidchart/editNew/73e12d46-2c45-4d7c-bcf4-a2ca7596ed4c"
+      ]
+    },
+    {
+      "section": "section-interaction-process-flow",
+      "page": "claim-check",
+      "url": "https://architect.salesforce.com/docs/architect/reference-diagrams/guide/claim-check.html",
+      "title": "Claim Check | Interaction Process Flow | Reference Diagrams | Salesforce Architects",
+      "images": [
+        "claim-check.webp"
+      ],
+      "lucidTemplates": [
+        "https://lucid.app/lucidchart/editNewOrRegister/0699a470-11ca-4291-88d6-a6399142a1ca"
+      ]
+    },
+    {
+      "section": "section-interaction-process-flow",
+      "page": "customer-personalization-flow",
+      "url": "https://architect.salesforce.com/docs/architect/reference-diagrams/guide/customer-personalization-flow.html",
+      "title": "Customer Personalization Flow | Interaction Process Flow | Reference Diagrams | Salesforce Architects",
+      "images": [
+        "customer-personalization-flow.webp"
+      ],
+      "lucidTemplates": [
+        "https://lucid.app/lucidchart/editNewOrRegister/b13e3166-d3a1-4621-b275-242638f3f9af"
+      ]
+    },
+    {
+      "section": "section-interaction-process-flow",
+      "page": "external-integrations-via-http",
+      "url": "https://architect.salesforce.com/docs/architect/reference-diagrams/guide/external-integrations-via-http.html",
+      "title": "External Integrations Via Http | Interaction Process Flow | Reference Diagrams | Salesforce Architects",
+      "images": [
+        "external-integrations-via-http.webp"
+      ],
+      "lucidTemplates": [
+        "https://lucid.app/lucidchart/editNewOrRegister/161cc130-341d-4c6d-84dc-00ca6aa00462"
+      ]
+    },
+    {
+      "section": "section-interaction-process-flow",
+      "page": "hospitality-loyalty-management-process",
+      "url": "https://architect.salesforce.com/docs/architect/reference-diagrams/guide/hospitality-loyalty-management-process.html",
+      "title": "Hospitality Loyalty Management Process | Interaction Process Flow | Reference Diagrams | Salesforce Architects",
+      "images": [
+        "hospitality-loyalty-management-process.webp"
+      ],
+      "lucidTemplates": [
+        "https://lucid.app/lucidchart/editNewOrRegister/899f5366-4dea-4da7-81af-dc3939aece42"
+      ]
+    },
+    {
+      "section": "section-interaction-process-flow",
+      "page": "queuing",
+      "url": "https://architect.salesforce.com/docs/architect/reference-diagrams/guide/queuing.html",
+      "title": "Queuing | Interaction Process Flow | Reference Diagrams | Salesforce Architects",
+      "images": [
+        "queuing.webp"
+      ],
+      "lucidTemplates": [
+        "https://lucid.app/lucidchart/editNewOrRegister/0cef151e-5b48-4237-bbe4-a774eee152ab"
+      ]
+    }
+  ]
+}
