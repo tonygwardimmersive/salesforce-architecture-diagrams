@@ -49,6 +49,26 @@ If you've changed anything in `salesforce-diagrams/`, rebuild the package first:
 
 ### Claude Code
 
+#### With npx
+
+The third-party [`skills`](https://www.npmjs.com/package/skills) CLI installs the skill straight
+from this repo. To install it for your user (into `~/.claude/skills/`):
+
+```bash
+npx skills add tonygwardimmersive/salesforce-architecture-diagrams --skill salesforce-diagrams -g -a claude-code
+```
+
+Leave out `-g` to install into the current project instead. Add `--list` to see what the repo
+contains without installing anything.
+
+If the repo is private and HTTPS git access isn't set up, pass an SSH URL instead:
+
+```bash
+npx skills add git@github.com:tonygwardimmersive/salesforce-architecture-diagrams.git --skill salesforce-diagrams -g -a claude-code
+```
+
+#### Manually
+
 Copy (or symlink) the skill folder into a skills directory.
 
 For your user, available in every project:
@@ -71,7 +91,8 @@ Restart Claude Code (or start a new session), then check it's listed with `/skil
 
 ### Rendering dependencies
 
-The renderer only needs Python 3's standard library to produce SVG. For PNG output it needs one of:
+The renderer needs Python 3. On systems where `python` isn't on PATH or points to Python 2
+(common on Linux, WSL and macOS), run it with `python3`. It only uses the standard library to produce SVG. For PNG output it needs one of:
 
 - `cairosvg` (`pip install cairosvg`)
 - `rsvg-convert` (e.g. `apt install librsvg2-bin` or `brew install librsvg`)
